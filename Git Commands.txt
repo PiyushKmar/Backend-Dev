@@ -1,0 +1,55 @@
+pwd
+
+Use: Displays the present working directory.
+Description:
+This command shows the full path of the directory you are currently in.
+It helps you know your exact location in the file system.
+
+mkdir unix-commands
+
+Use: Creates a new directory.
+Description:
+mkdir stands for make directory.
+This command creates a folder named unix-commands.
+
+cd unix-commands
+
+Use: Changes the current directory.
+Description:
+cd means change directory.
+It moves you from the current directory into the unix-commands folder.
+
+touch file1.txt
+
+Use: Creates a new empty file.
+Description:
+If the file does not exist, this command creates it.
+If it already exists, it updates the file’s timestamp.
+
+ls
+
+Use: Lists files and directories.
+Description:
+This command displays all files and folders present in the current directory.
+It is used to check what content exists in a folder.
+
+echo "this is first command" > file1.txt
+
+Use: Writes text into a file (overwrites existing content).
+Description:
+echo prints text and > redirects the output to a file.
+Any existing content in file1.txt is replaced.
+
+cat file1.txt
+
+Use: Displays the content of a file.
+Description:
+cat stands for concatenate.
+It shows the text stored inside file1.txt on the terminal.
+
+cp file1.txt backup.txt
+
+Use: Copies a file.
+Description:
+cp creates a duplicate of file1.txt named backup.txt.
+The original file remains unchanged.
